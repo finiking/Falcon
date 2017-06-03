@@ -36,12 +36,25 @@
 ```
 浏览器访问 http://localhost:8890
 
+## 开发
+```bash
+    # 安装依赖
+    npm install
+
+    # 本地开发Server
+    npm run dev
+```
+访问地址 http://localhost:8890
+
 ## 发布
 ```bash
-    # 发布测试环境 [带webpack ananalyzer]
-    npm run build:test / npm run build:ba
+    # 发布测试环境
+    npm run build:test 
 
-    # 构建生成环境
+    # 启动打包分析器
+    npm run build:ba
+
+    # 构建生产环境
     npm run build
 ```
 
